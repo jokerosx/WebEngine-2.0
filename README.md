@@ -1,4 +1,4 @@
-# WebEngine 2.0 BETA 3
+# WebEngine CMS 2.0 BETA 3
 
 Open source Content Management System for Mu servers. WebEngine's goal is to provide a fast and secure framework for server owners to create their own features to the CMS.
 
@@ -66,7 +66,7 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Support
 
