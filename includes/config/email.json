@@ -1,0 +1,15 @@
+{
+    "active": true,
+    "send_from": "noreply@gmail.com",
+    "send_name": "MuOnline",
+    "smtp_active": false,
+    "smtp_debug": "0",
+    "smtp_host": "smtp.sendgrid.net",
+    "smtp_ipv6": true,
+    "smtp_port": "587",
+    "smtp_secure": "tls",
+    "smtp_auth": false,
+    "smtp_user": "",
+    "smtp_pass": "",
+    "email_header_image": "https:\/\/webenginecms.org\/static\/200_email_header.jpg"
+}

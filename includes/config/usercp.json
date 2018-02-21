@@ -1,0 +1,92 @@
+[
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_1",
+        "link": "account\/profile",
+        "icon": "account.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 10
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_2",
+        "link": "account\/character\/reset",
+        "icon": "reset.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 20
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_6",
+        "link": "account\/character\/unstick",
+        "icon": "unstick.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 30
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_3",
+        "link": "account\/character\/clearpk",
+        "icon": "clearpk.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 40
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_8",
+        "link": "account\/character\/resetstats",
+        "icon": "fixstats.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 50
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_10",
+        "link": "account\/character\/addstats",
+        "icon": "addstats.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 60
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_9",
+        "link": "account\/character\/clearskilltree",
+        "icon": "clearst.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 70
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_4",
+        "link": "account\/vote",
+        "icon": "vote.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 80
+    },
+    {
+        "active": true,
+        "type": "internal",
+        "phrase": "usercp_menu_txt_5",
+        "link": "shop\/credits",
+        "icon": "donate.png",
+        "visibility": "user",
+        "newtab": false,
+        "order": 90
+    }
+]

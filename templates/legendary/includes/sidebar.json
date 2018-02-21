@@ -1,0 +1,42 @@
+[
+    {
+        "active": "0",
+        "block": "login",
+        "visibility": "guest"
+    },
+    {
+        "active": "1",
+        "block": "usercp",
+        "visibility": "user"
+    },
+    {
+        "active": "1",
+        "block": "serverinfo",
+        "visibility": "all"
+    },
+    {
+        "active": "1",
+        "block": "topresets",
+        "visibility": "all"
+    },
+    {
+        "active": "0",
+        "block": "toplevel",
+        "visibility": "all"
+    },
+    {
+        "active": "1",
+        "block": "youtubevideo",
+        "visibility": "all"
+    },
+    {
+        "active": "1",
+        "block": "facebook",
+        "visibility": "all"
+    },
+    {
+        "active": "0",
+        "block": "default",
+        "visibility": "all"
+    }
+]

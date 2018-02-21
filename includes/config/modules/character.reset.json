@@ -1,0 +1,9 @@
+{
+    "required_level": "400",
+	"required_zen": "1000000",
+    "reset_stats": "0",
+    "reset_leveluppoints": "0",
+    "reward_leveluppoints": "0",
+    "multiply_reward_leveluppoints": "0",
+    "reset_limit": "0"
+}

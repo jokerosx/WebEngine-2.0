@@ -1,0 +1,74 @@
+{
+    "0": {
+        "active": true,
+        "type": "internal",
+        "phrase": "menu_txt_1",
+        "link": "",
+        "visibility": "always",
+        "newtab": false,
+        "order": 10
+    },
+    "2": {
+        "active": true,
+        "type": "external",
+        "phrase": "menu_txt_2",
+        "link": "https:\/\/forum.webenginecms.org\/",
+        "visibility": "always",
+        "newtab": true,
+        "order": 20
+    },
+    "3": {
+        "active": true,
+        "type": "internal",
+        "phrase": "menu_txt_7",
+        "link": "downloads",
+        "visibility": "always",
+        "newtab": false,
+        "order": 30
+    },
+    "5": {
+        "active": true,
+        "type": "internal",
+        "phrase": "menu_txt_9",
+        "link": "account\/vote",
+        "visibility": "always",
+        "newtab": false,
+        "order": 50
+    },
+    "6": {
+        "active": true,
+        "type": "internal",
+        "phrase": "menu_txt_10",
+        "link": "rankings",
+        "visibility": "always",
+        "newtab": false,
+        "order": 60
+    },
+    "7": {
+        "active": false,
+        "type": "internal",
+        "phrase": "menu_txt_3",
+        "link": "register",
+        "visibility": "guest",
+        "newtab": false,
+        "order": 70
+    },
+    "8": {
+        "active": false,
+        "type": "internal",
+        "phrase": "menu_txt_4",
+        "link": "login",
+        "visibility": "guest",
+        "newtab": false,
+        "order": 80
+    },
+    "9": {
+        "active": false,
+        "type": "internal",
+        "phrase": "menu_txt_6",
+        "link": "logout",
+        "visibility": "user",
+        "newtab": false,
+        "order": 90
+    }
+}

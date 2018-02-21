@@ -1,0 +1,20 @@
+{
+    "rankings_results": "100",
+    "rankings_show_rank_number": "1",
+    "rankings_show_rank_laurels": "1",
+    "rankings_rank_laurels_limit": "3",
+    "rankings_rank_laurels_base_size": "45",
+    "rankings_rank_laurels_decrease_by": "5",
+    "rankings_show_online_status": "1",
+    "rankings_show_location": "1",
+    "rankings_show_gens": "1",
+    "rankings_enable_level": "1",
+    "rankings_enable_resets": "1",
+    "rankings_enable_pk": "1",
+    "rankings_enable_guilds": "1",
+    "rankings_enable_gens": "1",
+    "rankings_enable_votes": "1",
+    "rankings_excluded_characters": "",
+    "rankings_excluded_guilds": "",
+    "rankings_sum_master_level": "1"
+}

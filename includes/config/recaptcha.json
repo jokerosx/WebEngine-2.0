@@ -1,0 +1,8 @@
+{
+    "registration": false,
+    "login": false,
+    "password_recovery": false,
+    "username_recovery": false,
+    "site_key": "",
+    "secret_key": ""
+}
