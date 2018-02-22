@@ -16,7 +16,7 @@ $configurationFile = 'social';
 if(check($_POST['settings_submit'])) {
 	try {
 		
-		// xxxxxx
+		// enabled
 		if(!check($_POST['enabled'])) throw new Exception('Invalid setting value (enabled)');
 		if(!in_array($_POST['enabled'], array(0, 1))) throw new Exception('Invalid setting value (enabled)');
 		$setting['enabled'] = ($_POST['enabled'] == 1 ? true : false);
@@ -179,7 +179,7 @@ echo '<div class="row">';
 							
 								echo '<p>Add Domain:</p>';
 								echo '<ul>';
-									echo '<li>'.dirname(__BASE_URL__).'/ (Match Prefix, Prefetch None)</li>';
+									echo '<li>'.__BASE_URL__.' (Match Prefix, Prefetch None)</li>';
 								echo '</ul>';
 								
 							echo '</td>';
@@ -251,15 +251,15 @@ echo '<div class="row">';
 							
 								echo '<p>Authorized JavaScript origins:</p>';
 								echo '<ul>';
-									echo '<li>'.dirname(__BASE_URL__).'</li>';
+									echo '<li>'.__BASE_URL__.'</li>';
 								echo '</ul>';
 								
 								echo '<p>Authorized redirect URIs:</p>';
 								echo '<ul>';
-									echo '<li>'.dirname(__BASE_URL__).'/login/google</li>';
-									echo '<li>'.dirname(__BASE_URL__).'/account/social/google/link</li>';
-									echo '<li>'.dirname(__BASE_URL__).'/social/login/google</li>';
-									echo '<li>'.dirname(__BASE_URL__).'/social/register/google</li>';
+									echo '<li>'.__BASE_URL__.'login/google</li>';
+									echo '<li>'.__BASE_URL__.'account/social/google/link</li>';
+									echo '<li>'.__BASE_URL__.'social/login/google</li>';
+									echo '<li>'.__BASE_URL__.'social/register/google</li>';
 								echo '</ul>';
 								
 							echo '</td>';
