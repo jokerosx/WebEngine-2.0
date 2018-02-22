@@ -15,9 +15,6 @@
 $cfg = loadModuleConfig('login');
 if(!is_array($cfg)) throw new Exception(lang('error_66'));
 
-// login module status
-if(!$cfg['active']) throw new Exception(lang('error_47'));
-
 // social configurations
 $socialCfg = loadConfig('social');
 if(!is_array($socialCfg)) throw new Exception(lang('error_66'));
