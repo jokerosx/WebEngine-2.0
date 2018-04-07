@@ -30,7 +30,7 @@ if(is_array($levelRankingsCache)) {
 					echo '<tr>';
 						echo '<td>'.returnPlayerAvatar($row[_CLMN_CHR_CLASS_], true, true, 'rounded-image-corners', '25px', '25px').'</td>';
 						echo '<td>'.playerProfile($row[_CLMN_CHR_NAME_]).'</td>';
-						echo '<td>'.$row['playerLevel'].'</td>';
+						echo '<td>'.$row[_CLMN_CHR_LVL_].'</td>';
 					echo '</tr>';
 				}
 			echo '</table>';
