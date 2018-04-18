@@ -16,14 +16,14 @@ $resetsRankingsCache = loadCache('rankings_resets.cache');
 if(is_array($resetsRankingsCache)) {
 	echo '<div class="panel panel-sidebar">';
 		echo '<div class="panel-heading">';
-			echo '<h3 class="panel-title">Top Resets <a href="'.Handler::websiteLink('rankings/resets').'" class="btn btn-primary btn-xs pull-right" style="text-align:center;width:22px;">+</a></h3>';
+			echo '<h3 class="panel-title">'.lang('rankings_txt_2').' <a href="'.Handler::websiteLink('rankings/resets').'" class="btn btn-primary btn-xs pull-right" style="text-align:center;width:22px;">+</a></h3>';
 		echo '</div>';
 		echo '<div class="panel-body">';
 			echo '<table class="table">';
 				echo '<tr>';
 					echo '<th></th>';
-					echo '<th>Player</th>';
-					echo '<th>Resets</th>';
+					echo '<th>'.lang('rankings_txt_10').'</th>';
+					echo '<th>'.lang('rankings_txt_13').'</th>';
 				echo '</tr>';
 				foreach($resetsRankingsCache as $k => $row) {
 					if($k > 2) break;
